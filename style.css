@@ -45,7 +45,7 @@ a {
 }
 
 .navbar ul {
-    display: none;/*flex*/
+    display: flex;/*flex*/
 }
 
 .navbar ul li {

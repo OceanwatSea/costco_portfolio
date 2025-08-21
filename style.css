@@ -23,7 +23,7 @@ a {
     width: 100%;
     padding: 15px 5%;/*25px 9%*/
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* This will center the logo on mobile */
     align-items: center;
     z-index: 100;
     visibility: hidden;
@@ -45,7 +45,7 @@ a {
 }
 
 .navbar ul {
-    display: flex;/*flex*/
+    display: none;/*flex*/
 }
 
 .navbar ul li {
@@ -273,11 +273,12 @@ a {
     
     .navbar ul {
         display: flex; /* Show the menu on larger screens */
+        justify-content: center; /* Center the links within the ul */
     }
     
     .navbar ul li {
         list-style: none;
-        margin-left: 35px;
+        margin: 0 17.5px; /* Adjust margin to spread out links */
     }
 
     .navbar ul li a {

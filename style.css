@@ -46,11 +46,12 @@ a {
 
 .navbar ul {
     display: flex;/*flex*/
+    gap: 15px; /* Add this line */
 }
 
 .navbar ul li {
     list-style: none;
-    margin-left: 35px;
+    /*margin-left: 35px;*/
 }
 
 .navbar ul li a {
